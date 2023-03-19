@@ -4,14 +4,13 @@ import {
   createTheme,
   ThemeProvider,
   styled,
-  responsiveFontSizes,
 } from "@mui/material/styles";
 
 function About() {
 
   return (
     <div id="about-page">
-      <div>
+      <div id='test-about'>
         <Typography variant="h2" align="center" style={{ marginTop: "7%" }}>
           About Us
         </Typography>
@@ -43,7 +42,7 @@ function About() {
           anyone who shares our vision.
         </Typography>
       </div>
-      <div>
+      <div id='test-open-faith'>
         <Typography variant="h2" align="center" style={{ marginTop: "7%" }}>
           Open Faith Discussions
         </Typography>

@@ -24,6 +24,7 @@ is being shown on smaller devices */
 #landing-page{
     background-image: url('./images/test_image.jpeg');
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -34,9 +35,32 @@ is being shown on smaller devices */
 #about-page{
     background-image: url('./images/test_image.jpeg');
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     height: auto;
     margin: 0;
 }
+
+/* just wanted to see what it looks like */
+/* #test-about{
+    background-image: url('./images/test_image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+} */
+
+/* just wanted to see what it looks like */
+/* #test-open-faith{
+    background-image: url('./images/test-image-2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+} */
