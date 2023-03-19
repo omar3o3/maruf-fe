@@ -30,3 +30,13 @@ is being shown on smaller devices */
     height: auto;
     margin: 0;
 }
+
+#about-page{
+    background-image: url('./images/test_image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    height: auto;
+    margin: 0;
+}

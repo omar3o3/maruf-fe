@@ -59,9 +59,23 @@ function About() {
             fontWeight: "bold",
           }}
         >
-          A space where young professionals can learn to spiritually grow and
-          establish genuine companionship within a socially accepting
-          environment.
+          Open Faith Discussions is a core aspect of the Maruf community,
+          providing a unique platform for young professionals to explore and
+          deepen their spirituality in a welcoming and inclusive setting. These
+          discussions offer a space for participants to engage with their faith
+          in a way that is open and non-judgmental, allowing for a range of
+          perspectives and interpretations. Through these discussions,
+          individuals can learn from each other and gain new insights and
+          perspectives on their beliefs, while also building meaningful
+          relationships and connections with their peers. The discussions are
+          facilitated by Sheikh Karim, who is skilled in guiding conversations
+          that promote mutual understanding and respect. By participating in
+          Open Faith Discussions, young professionals can not only deepen their
+          understanding of their faith but also establish genuine companionship
+          within a socially accepting environment, where they feel seen, heard,
+          and supported. Overall, Open Faith Discussions is an integral part of
+          the Maruf community and provides a powerful tool for spiritual growth
+          and personal connection.
         </Typography>
       </div>
     </div>
