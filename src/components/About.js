@@ -25,18 +25,22 @@ function About() {
             fontWeight: "bold",
           }}
         >
-          The Maruf community is a warm and welcoming space that brings together
-          young Muslim professionals in New York city who aspire to grow
-          spiritually and learn more about their religion in a safe, welcoming,
-          and judgment free environment. Many young Muslims find it difficult to
-          tackle their problems and by creating a community where we focus on
-          these discussions and directly address issues young Muslims are faced
-          with daily, we are able to tackle the doubts and misunderstandings
-          that may cause doubts within our community. We host community events,
-          open faith discussions, volunteering opportunities, and much more, all
-          with the hopes of bringing a diversified group of young Muslim
-          individuals together and strengthening our companionship as a
-          community.
+          The Maruf community provides a safe and supportive space for young
+          Muslim professionals in New York City to explore their spirituality
+          and learn more about their faith. We recognize that many young Muslims
+          face complex challenges, such as balancing their religious and
+          professional responsibilities or navigating cultural differences
+          within their families and communities. By creating a community that
+          encourages open and honest dialogue, we empower individuals to
+          confront these issues head-on and find meaningful solutions. In
+          addition to tackling tough topics, Maruf also offers a wealth of
+          opportunities for personal growth, including community events, service
+          projects, and mentorship programs. Members of Maruf also benefit from
+          a strong sense of friendship and belonging, as we come together to
+          support each other and celebrate our shared values. We are proud to
+          offer a unique space that caters specifically to the needs of young
+          Muslim professionals in New York City and look forward to welcoming
+          anyone who shares our vision.
         </Typography>
       </div>
       <div>
