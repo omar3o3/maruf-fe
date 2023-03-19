@@ -51,9 +51,9 @@
 /* changes it so that the background IS NOT FIXED */
 @media only screen and (min-width: 600px) {
     #about-page{
-        background-image: url('./images/test_image.jpeg');
+        /* background-image: url('./images/test_image.jpeg'); */
+        background-image: url('./images/about-bg.png');
         background-repeat: no-repeat;
-        /* background-attachment: fixed; */
         background-size: cover;
         background-position: center;
         min-height: 100vh;
@@ -62,9 +62,9 @@
     }
 
     #landing-page{
-        background-image: url('./images/test_image.jpeg');
+        /* background-image: url('./images/test_image.jpeg'); */
+        background-image: url('./images/main-bg.JPG');
         background-repeat: no-repeat;
-        /* background-attachment: fixed; */
         background-size: cover;
         background-position: center;
         min-height: 100vh;
@@ -78,7 +78,8 @@
 /* changes it so that the background IS FIXED */
 @media only screen and (max-width: 599px) {
     #about-page{
-        background-image: url('./images/test_image.jpeg');
+        /* background-image: url('./images/test_image.jpeg'); */
+        background-image: url('./images/about-bg.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -89,7 +90,8 @@
     }
 
     #landing-page{
-        background-image: url('./images/test_image.jpeg');
+        /* background-image: url('./images/test_image.jpeg'); */
+        background-image: url('./images/main-bg.JPG');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
