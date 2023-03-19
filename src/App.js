@@ -1,21 +1,32 @@
 import "./App.css";
 import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  createTheme,
+  ThemeProvider,
+  responsiveFontSizes,
+} from "@mui/material/styles";
 
 import LandingPage from "./components/LandingPage.js";
 import About from "./components/About.js";
 import NavBar from "./components/NavBar.js";
 
 function App() {
+
+  let theme = createTheme();
+  theme = responsiveFontSizes(theme);
+
   return (
     <div>
-      <NavBar />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/About" element={<About />} />
-        </Routes>
-      </BrowserRouter>
+      <ThemeProvider theme={theme}>
+        <NavBar />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/About" element={<About />} />
+          </Routes>
+        </BrowserRouter>
+      </ThemeProvider>
     </div>
   );
 }

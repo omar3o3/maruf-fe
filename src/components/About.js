@@ -8,19 +8,8 @@ import {
 } from "@mui/material/styles";
 
 function About() {
-  let theme = createTheme();
-  theme.typography.h6 = {
-    fontSize: "1.2rem",
-    "@media (min-width:600px)": {
-      fontSize: "1.5rem",
-    },
-    [theme.breakpoints.down("md")]: {
-      fontSize: "3rem",
-    },
-  };
 
   return (
-    // <ThemeProvider theme={theme}>
     <div id="about-page">
       <div>
         <Typography variant="h2" align="center" style={{ marginTop: "7%" }}>
@@ -72,7 +61,6 @@ function About() {
         </Typography>
       </div>
     </div>
-    // </ThemeProvider>
   );
 }
 

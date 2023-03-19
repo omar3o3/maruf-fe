@@ -32,6 +32,7 @@ function NavBar(props) {
     const [mobileOpen, setMobileOpen] = React.useState(false);
 
     const ColorAppBar = styled(AppBar)(({ theme }) => ({
+        // backgroundColor: "transparent",
         backgroundColor: "white",
         color: "black",
         button: {
@@ -48,6 +49,7 @@ function NavBar(props) {
                 color: "#E4B45A",
             },
         },
+        // boxShadow: 'none'
     }));
 
     const CustomListItemText = styled(ListItemText)(({ theme }) => ({
