@@ -1,49 +1,30 @@
-/* this looks good on phones but on larger screens there is white empty space under the photo
-where there is not enough text to fill the screen */
-/* #landing-page{
-    background-image: url('./images/test_image.jpeg');
-    background-size: cover;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
-} */
 
-/* this looks good on larger screens, but now the same issue of remaining bottom white space
-is being shown on smaller devices */
+/* this is perfect on all devices */
+/* may result in images being too zoomed in on smaller devices */
 /* #landing-page{
     background-image: url('./images/test_image.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     margin: 0;
 } */
 
 /* this is perfect on all devices */
-#landing-page{
+/* may result in images being too zoomed in on smaller devices */
+/* #about-page{
     background-image: url('./images/test_image.jpeg');
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     height: auto;
     margin: 0;
-}
-
-#about-page{
-    background-image: url('./images/test_image.jpeg');
-    background-repeat: no-repeat;
-    /* background-attachment: fixed; */
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    height: auto;
-    margin: 0;
-}
+} */
 
 /* just wanted to see what it looks like */
+/* two different images for the 2 different sections on the about page */
 /* #test-about{
     background-image: url('./images/test_image.jpeg');
     background-repeat: no-repeat;
@@ -55,6 +36,7 @@ is being shown on smaller devices */
 } */
 
 /* just wanted to see what it looks like */
+/* two different images for the 2 different sections on the about page */
 /* #test-open-faith{
     background-image: url('./images/test-image-2.jpeg');
     background-repeat: no-repeat;
@@ -64,3 +46,63 @@ is being shown on smaller devices */
     height: auto;
     margin: 0;
 } */
+
+/* Styles for screens larger than 600px */
+/* changes it so that the background IS NOT FIXED */
+@media only screen and (min-width: 600px) {
+    #about-page{
+        background-image: url('./images/test_image.jpeg');
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        height: auto;
+        margin: 0;
+    }
+
+    #landing-page{
+        background-image: url('./images/test_image.jpeg');
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        height: auto;
+        margin: 0;
+    }
+}
+
+
+/* Styles for screens smaller than 600px */
+/* changes it so that the background IS FIXED */
+@media only screen and (max-width: 599px) {
+    #about-page{
+        background-image: url('./images/test_image.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        height: auto;
+        margin: 0;
+    }
+
+    #landing-page{
+        background-image: url('./images/test_image.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        height: auto;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
