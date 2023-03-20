@@ -14,7 +14,11 @@ function LandingPage() {
     return (
         <div id="landing-page">
             <div>
-                <Typography variant="h2" align="center" style={{ marginTop: "7%" }}>
+                <Typography
+                    variant="h2"
+                    align="center"
+                    // style={{ marginTop: "7%" }}
+                >
                     Maruf Community
                 </Typography>
                 <Typography

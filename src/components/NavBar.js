@@ -107,9 +107,9 @@ function NavBar(props) {
     const container = window !== undefined ? () => window().document.body : undefined;
 
     return (
-        <Box sx={{ display: "flex" }} className="mainNavBar">
+        <Box sx={{ display: "flex" }} id="mainNavBar">
             <CssBaseline />
-            <ColorAppBar component="nav">
+            <ColorAppBar component="nav" position= "sticky">
                 <Toolbar>
                     <IconButton
                         color="inherit"
@@ -129,7 +129,7 @@ function NavBar(props) {
                         src={marufLogo}
                         alt="maruf logo"
                         style={{
-                            maxWidth: "12%",
+                            maxWidth: "10%",
                         }}
                     />
                     </Typography>

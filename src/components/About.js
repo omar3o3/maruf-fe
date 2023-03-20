@@ -11,7 +11,11 @@ function About() {
   return (
     <div id="about-page">
       <div id='test-about'>
-        <Typography variant="h2" align="center" style={{ marginTop: "7%" }}>
+        <Typography 
+          variant="h2" 
+          align="center" 
+          // style={{ marginTop: "7%" }}
+        >
           About Us
         </Typography>
         <Typography
