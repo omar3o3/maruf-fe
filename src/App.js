@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState } from "react";
+// import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import {
   createTheme,
@@ -10,6 +10,7 @@ import {
 import LandingPage from "./components/LandingPage.js";
 import About from "./components/About.js";
 import NavBar from "./components/NavBar.js";
+import Contact from "./components/Contact.js";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
           </Routes>
         </BrowserRouter>
       </ThemeProvider>

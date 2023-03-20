@@ -25,7 +25,8 @@ import { blueGrey } from "@mui/material/colors";
 import marufLogo from "../images/maruf_logo.PNG";
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Calendar", "Contact"];
+// const navItems = ["Home", "About", "Calendar", "Contact"];
+const navItems = ["Home", "About", "Contact"];
 
 function NavBar(props) {
     const { window } = props;
