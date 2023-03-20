@@ -66,6 +66,7 @@
         /* background-image: url('./images/test_image.jpeg'); */
         /* background-image: url('./images/main-bg.JPG'); */
         background-image: url('./images/bg-pic2.png');
+        background-image: url('./images/bg-pic3.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -100,7 +101,8 @@
     #landing-page{
         /* background-image: url('./images/test_image.jpeg'); */
         /* background-image: url('./images/main-bg.JPG'); */
-        background-image: url('./images/bg-pic2.png');
+        /* background-image: url('./images/bg-pic2.png'); */
+        background-image: url('./images/bg-pic3.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
