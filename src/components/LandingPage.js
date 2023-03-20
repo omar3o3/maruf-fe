@@ -17,7 +17,7 @@ function LandingPage() {
                 <Typography
                     variant="h2"
                     align="center"
-                    // style={{ marginTop: "7%" }}
+                    className="beneathNavBar"
                 >
                     Maruf Community
                 </Typography>

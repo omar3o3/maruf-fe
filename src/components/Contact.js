@@ -6,8 +6,8 @@ function Contact() {
     // maruficsi@gmail.com
 
     return (
-        <div id="contact page">
-            <Typography variant="h2" align="center" style={{ marginTop: "7%" }}>
+        <div id="contact-page">
+            <Typography variant="h2" align="center" className="beneathNavBar">
                 Reach Out To Us!
             </Typography>
             <Typography variant="h4" align="center" style={{ marginTop: "2%" }}>

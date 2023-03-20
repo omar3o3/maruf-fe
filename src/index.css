@@ -76,6 +76,17 @@
         color: whitesmoke
     }
 
+    #contact-page{
+        background-image: url('./images/contact-bg3.PNG');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        height: auto;
+        margin: 0;
+        color: whitesmoke
+    }
+
     /* #mainNavBar{
         
     } */
@@ -112,8 +123,24 @@
         margin: 0;
         color: whitesmoke
     }
+
+    #contact-page{
+        background-image: url('./images/contact-bg3.PNG');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        height: auto;
+        margin: 0;
+        color: whitesmoke
+    }
 }
 
+
+    .beneathNavBar{
+        padding-top: 3%
+    }
 
 
 

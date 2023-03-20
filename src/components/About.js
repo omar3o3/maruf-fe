@@ -14,7 +14,7 @@ function About() {
         <Typography 
           variant="h2" 
           align="center" 
-          // style={{ marginTop: "7%" }}
+          className="beneathNavBar"
         >
           About Us
         </Typography>
