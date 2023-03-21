@@ -31,6 +31,7 @@ function LandingPage() {
                         marginTop: "3%",
                         fontWeight: "light",
                     }}
+                    sx={{ fontWeight: 'light' }}
                 >
                     Our community's name "Maruf" reflects our commitment to promoting
                     the good. We believe that the prophetic teachings offer valuable
