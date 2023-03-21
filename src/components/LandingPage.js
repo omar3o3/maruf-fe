@@ -18,6 +18,7 @@ function LandingPage() {
                     variant="h2"
                     align="center"
                     className="beneathNavBar"
+                    sx={{ fontWeight: 'medium' }}
                 >
                     Maruf Community
                 </Typography>
@@ -28,7 +29,7 @@ function LandingPage() {
                         paddingLeft: "3%",
                         paddingRight: "3%",
                         marginTop: "3%",
-                        fontWeight: "bold",
+                        fontWeight: "light",
                     }}
                 >
                     Our community's name "Maruf" reflects our commitment to promoting
@@ -44,7 +45,7 @@ function LandingPage() {
                     welcomed and valued, and where positive actions are encouraged and
                     celebrated.
                 </Typography>
-                <Typography variant="h6" align="center" style={{marginTop: '5%'}}>
+                <Typography variant="h6" align="center" style={{marginTop: '5%'}} sx={{ fontWeight: 'bold' }}>
                     Every Tuesday at 7:30pm
                 </Typography>
             </div>

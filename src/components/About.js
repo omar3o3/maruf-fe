@@ -15,9 +15,11 @@ function About() {
           variant="h2" 
           align="center" 
           className="beneathNavBar"
+          sx={{ fontWeight: 'medium' }}
         >
           About Us
         </Typography>
+
         <Typography
           align="center"
           variant="h6"
@@ -25,8 +27,8 @@ function About() {
             paddingLeft: "3%",
             paddingRight: "3%",
             marginTop: "3%",
-            fontWeight: "bold",
           }}
+          sx={{ fontWeight: 'light' }}
         >
           The Maruf community provides a safe and supportive space for young
           Muslim professionals in New York City to explore their spirituality
@@ -47,7 +49,7 @@ function About() {
         </Typography>
       </div>
       <div id='test-open-faith'>
-        <Typography variant="h2" align="center" style={{ marginTop: "7%" }}>
+        <Typography variant="h2" align="center" style={{ marginTop: "7%" }} sx={{ fontWeight: 'medium' }}>
           Open Faith Discussions
         </Typography>
         <Typography
@@ -59,8 +61,8 @@ function About() {
             marginTop: "3%",
             // marginBottom: "10%",
             paddingBottom: "10%",
-            fontWeight: "bold",
           }}
+          sx={{ fontWeight: 'light' }}
         >
           Open Faith Discussions is a core aspect of the Maruf community,
           providing a unique platform for young professionals to explore and

@@ -16,7 +16,7 @@ function Contact() {
             <Typography variant="h4" align="center" style={{ marginTop: "2%" }}>
                 maruficsi@gmail.com
             </Typography>
-            <Typography variant="h6" align="center" style={{ marginTop: "2%" }}>
+            <Typography variant="h6" align="center" style={{ marginTop: "2%" }} sx={{fontWeight: "light"}}>
                 We will try our best to answer all inquiries as soon as possible.
             </Typography>
         </div>
